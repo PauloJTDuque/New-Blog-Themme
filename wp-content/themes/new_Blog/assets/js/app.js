@@ -1,6 +1,6 @@
 jQuery(function($) {
 
-    console.log(obj)
+    // console.log(obj)
 
     // $.ajax({
     //     url: obj.ajaxurl,
@@ -11,3 +11,4 @@ jQuery(function($) {
     // })
 
 });
+
