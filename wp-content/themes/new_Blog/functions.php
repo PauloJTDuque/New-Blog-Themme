@@ -24,4 +24,4 @@ function load_scripts() {
 
 add_action('wp_enqueue_scripts' , 'load_scripts');
 
-register_nav_menu( 'main', 'Main Menu', 'New_Blog')
+register_nav_menu( 'main', __( 'Main Menu', 'New_Blog'));
