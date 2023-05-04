@@ -16,7 +16,7 @@ function load_scripts() {
 
     wp_localize_script('app.js' , 'obj' , [
         // 'teste' => 'ok',
-        // 'search' => isset($_GET['busca']) ? $_GET['busca'] : null,
+        // 'search' => isset($_GET['busca']) ? $_GET['busca'] : null, ***Ternário
         'ajaxurl' => admin_url('admin-ajax.php'),
 
     ]);
@@ -25,3 +25,9 @@ function load_scripts() {
 add_action('wp_enqueue_scripts' , 'load_scripts');
 
 register_nav_menu( 'main', __( 'Main Menu', 'New_Blog'));
+
+
+/*
+* Themes Supports
+*/
+add_theme_support( 'title-tag' );
