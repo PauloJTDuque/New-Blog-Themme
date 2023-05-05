@@ -11,7 +11,7 @@ define('INCLUDE_PATH', get_template_directory());
 
 function load_scripts()
 {
-    wp_enqueue_style('main-css', INCLUDE_URI . '/assets/css/main.css', [], false, 'all');
+   //wp_enqueue_style('main-css', INCLUDE_URI . '/assets/css/main.css', [], false, 'all');
 
     wp_enqueue_script('app.js', INCLUDE_URI . '/assets/js/app.js', ['jquery'], false, true);
 
