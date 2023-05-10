@@ -39,13 +39,13 @@ gulp.task('dev', function() {
         host: 'localhost',
         port: 3000,
         files: [
-            './**/*.php',
-            './**/*.html',
+            // './**/*.php',
+            // './**/*.html',
             './assets/scss/**/*.scss',
             './assets/css/**/*.css',
             './assets/js/**/*.js'
         ],
-        proxy: "http://estudos.local"
+        proxy: "http://newblogtheme.local"
     });
 
     watch('./assets/scss/**/*.scss', gulp.series('bundleSass'));
